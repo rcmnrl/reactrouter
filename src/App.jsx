@@ -5,6 +5,7 @@ import Contact from "./pages/Contact.jsx";
 import Layout from "./pages/Layout.jsx";
 import Services from "./pages/Services.jsx";
 import NotFound from "./pages/NotFound.jsx";
+import './pages/App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
 
