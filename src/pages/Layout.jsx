@@ -29,9 +29,9 @@ function Layout(){
         <Outlet></Outlet>
     </div>
 
-    <footer className="bg-light p-3 text-center footer mt-auto">
-        <p>© rcmnrl 2023</p>
-    </footer>
+    <footer className="bg-dark p-3 text-center footer mt-auto" style={{ color: 'white' }}>
+    <p>© rcmnrl 2023</p>
+</footer>
 </main>
     )
 }
