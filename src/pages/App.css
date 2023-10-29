@@ -7,3 +7,56 @@ h1 {
   .bg-pink {
     background-color: rgb(18, 61, 135);
 }
+
+.containercontact {
+  background-color: #c4caf5;
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.form {
+  border-radius: 10px; /* Increase the border-radius */
+  padding: 40px; /* Increase the padding */
+  max-width: 500px; /* Adjust the form width */
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.input-field {
+  width: 100%; /* Set a fixed width for all input fields */
+  padding: 10px; /* Adjust the padding as needed */
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+
+.button {
+  background: #06284d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.password-input {
+  position: relative;
+}
+
+
+
+.show-password-button {
+  position: absolute;
+  top: 50%;
+  right: 10px; /* Adjust the right value to control the button's horizontal position */
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.0rem;
+}

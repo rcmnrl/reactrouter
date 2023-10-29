@@ -3,9 +3,9 @@ import { Outlet, Link } from "react-router-dom";
 function Layout(){
     return(
       <main className="d-flex flex-column min-vh-100">
-    <nav className="navbar navbar-expand-lg bg-pink"> {/* Add a custom class (bg-pink) */}
+    <nav className="navbar navbar-expand-lg bg-pink"> {}
         <div className="container-fluid">
-            <Link className="navbar-brand fw-bold text-white" to="/">React Routing Demo</Link>
+            <Link className="navbar-brand fw-bold text-white" to="/">Kitten Podcast</Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
